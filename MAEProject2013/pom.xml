@@ -7,14 +7,19 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MAEProject2013 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-    <dependencies>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-        </dependency>
-    </dependencies>
   <build>
     <finalName>MAEProject2013</finalName>
   </build>
+  <dependencies>
+  <dependency>
+	<groupId>org.apache.tomcat</groupId>
+	<artifactId>jsp-api</artifactId>
+	<version>6.0.36</version>
+</dependency>
+<dependency>
+	<groupId>org.eclipse.jetty</groupId>
+	<artifactId>jetty-jsp-2.1</artifactId>
+	<version>7.5.4.v20111024</version>
+</dependency>
+  </dependencies>
 </project>

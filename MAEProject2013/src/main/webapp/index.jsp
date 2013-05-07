@@ -12,7 +12,7 @@ Zum Login bitte Benutzername und Passwort eingeben:<br />
 <hr />
  
 <form method="get" name="login" action="loginCheck.jsp">
-Benutzername Change<br />
+Benutzername Change 2<br />
 <input type="text" name="loginName" /><br />
 Passwort<br />
 <input type="password" name="password" /><br />
